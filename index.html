@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- ===== Boxicons CSS ===== -->
+    <!-- <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'> -->
+
+    <!-- main-css  -->
+    <link rel="stylesheet" href="./assets/lib/fontawesome/css/all.css">
+    <link rel="stylesheet" href="./assets/lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/responsive.css">
+
+    <title>Responsive Navigation Menu Bar</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav-bar container">
+            <i class='fas fa-bars sidebarOpen'></i>
+            <span class="logo navLogo"><a href="#">CodingLab</a></span>
+
+            <div class="menu">
+                <div class="logo-toggle">
+                    <span class="logo"><a href="#">CodingLab</a></span>
+                    <i class='fas fa-remove siderbarClose'></i>
+                </div>
+
+                <ul class="nav-links text-uppercase">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a>
+                    <ul class="sub-menu">
+                        <li><a href="#">Service-1</a></li>
+                        <li><a href="#">Service-1</a></li>
+                        <li><a href="#">Service-1</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="darkLight-searchBox">
+                
+                <div class="searchBox">
+                    <div class="searchToggle">
+                        <i class='fas fa-remove cancel'></i>
+                        <i class='fas fa-search search'></i>
+                    </div>
+
+                    <div class="search-field">
+                        <input type="text" placeholder="Search...">
+                        <i class='fas fa-search'></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- <script src="./assets/js/main.js"></script> -->
+    <script src="./script.js"></script>
+    <script src="./assets/lib/bootstrap/js/bootstrap.bundle.js"></script>
+
+</body>
+
+</html>
